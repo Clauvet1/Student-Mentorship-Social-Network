@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #6C6969;
+  --background-color: #4CA6C8;
+  --secondaryBb-color: #45261E;
+  --tertiaryBg-color: #E27E1D;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +16,110 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.bar{
+  border-radius: 4px black solid;
+  width: 95%;
+  margin: 2em auto;
+}
+#search{
+  background-color: rgba(0, 0, 0, 0.045);
+}
+#navMore{
+  border-left: 2px rgba(0, 0, 0, 0.105) solid;
+  margin: auto;
+}
+li{
+  padding: 0 10px;
+}
+#signUp{
+  border: 2px black solid;
+  padding: 0;
+  width: 6em;
+}
+#signUp :hover{
+  background-color: var(--background-color);
+  color: white;
+  border: 2px white solid;
+}
+
+/* For Home */
+
+.content1{
+  /* width: 98%;
+  box-shadow: 90px 40px 5em rgba(0, 0, 0, 0.37); */
+  margin: 0 0 0 auto;
+  padding: 2em;
+  border-radius: 1em 0 0 1em;
+  overflow: hidden;
+}
+
+p{
+  color: var(--primary-color);
+}
+.IMG{
+  width: 50%;
+  height: 60%;
+  border-radius: 60%;
+  overflow: hidden;
+  position: absolute;
+  top: -5em;
+  left: 25%;
+  box-shadow: 1px 4px 10px black;
+  padding: 1px;
+}
+.box{
+  box-shadow: 4em -8em 30em var(--background-color);
+  width: 60%;
+  margin: 7em auto;
+  position: relative;
+  padding: 8em 2em 2em 2em;
+  border-radius: 25%;
+}
+.orangeBox{
+  box-shadow: 2px 4px 4px var(--tertiaryBg-color);
+  overflow: visible;
+  width: 75%;
+  padding: 2em;
+  margin-top: 5em;
+  border-radius: 50%;
+}
+.student-mentor-matching{
+  width: 98%;
+  box-shadow: 90px 40px 5em rgba(0, 0, 0, 0.37);
+  margin: 0 0 0 auto;
+  padding: 2em;
+  border-radius: 1em 0 0 1em;
+  overflow: hidden;
+}
+.icon-large{
+  font-size: 2rem;
+  color: var(--background-color);
+  padding-right: 5%;
+}
+.line{
+  margin-left: 1em;
+  margin: 1em;
+  display: flex;
+}
+#IMG-logo{
+  width: 5em;
+}
+.SMM{
+  padding: 8em 0;
+ 
+}
+.IMG-SMM{
+  border-radius: 45%;
+  overflow: hidden;
+  width: 80%;
+}
+.footer{
+  margin-top: 5em;
+  padding: 4em 0;
+  background-color: var(--secondaryBb-color);
+  box-shadow: 90px -40px 5em rgba(0, 0, 0, 0.37);
+  margin: 0 0 0 auto;
+  padding: 2em;
+  overflow: hidden;
 }
