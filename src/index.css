@@ -123,3 +123,82 @@ p{
   padding: 2em;
   overflow: hidden;
 }
+
+/* For AboutUs */
+
+.bottom_text{
+  margin: 0 0 0 auto;
+  background-color: white;
+  color: black;
+  width: 50%;
+  font-size: larger;
+  padding: 1em;
+}
+.box{
+  padding: 2em 0 0 5em;
+}
+.box h1{
+  font-size:5em;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.content1{
+  width: 75%;
+  margin: 2em auto;
+}
+.apply{
+  text-decoration: underline red;
+  margin-top: 2em;
+}
+.content2{
+  position: relative;
+  border: 1px rgb(255, 255, 255) solid;
+}
+.IMG_worker{
+  position: absolute;
+  width: 25em;
+  right: 0;
+  top: 0;
+}
+.bg_red{
+  background-color: var(--tertiaryBg-color);
+  color: white;
+  margin: 4em 8em 4em 4em;
+  padding: 2em 3em;
+}
+.img{
+  width: 100%;
+  height: 100%;
+}
+.IMG_workerB{
+  position: absolute;
+  width: 80%;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+}
+.results{
+  text-align: center;
+  margin-top: 5em;
+}
+.results p{
+  width: 50%;
+  margin: 0 auto 0 auto;
+}
+.imgX{
+  width: 12em;
+  height: 13em;
+  border-radius: 11em;
+  margin: 0 auto 2em 5em;
+}
+.views{
+  width: 80%;
+  margin: 5em auto 0 auto;
+}
+#p_i{
+  display: flex;
+  justify-content: space-around;
+}
+.rec{
+  width: 88%;
+  margin: 2em auto 0 13em;
+}

@@ -1,8 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import Navbar from './components/Navbar';
-import Home from './home';
+// import Home from './home';
 import Footer from './components/Footer';
+import AboutUs from './aboutUs';
 
 // import Button from 'react-bootstrap/Button';
 
@@ -15,7 +16,7 @@ function App() {
     <div className="App">
      <Navbar />
      <div className="contents">
-      <Home />
+      <AboutUs />
      </div>
      <Footer />
     </div>

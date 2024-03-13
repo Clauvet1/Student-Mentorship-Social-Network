@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faWhatsapp, faGithub, faXTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faWhatsapp, faGithub, faXTwitter, faInstagram, faFacebook} from "@fortawesome/free-brands-svg-icons";
 const Footer = () => {
     return ( 
         <div className="footer">
@@ -30,12 +30,11 @@ const Footer = () => {
                                 <p className="text-info fs-5">You can email us and</p>
                                 <h2 className="text-info fs-5 mb-5">Follow us on</h2>
                                 <p className="socials">
-                                    <a href="https://github.com/Clauvet1" className="text-decoration-none text-white"><img className="btnIMG rounded-circle p-2" src="" alt=""/></a> 
-                                    <a href="" className="text-decoration-none text-white"><img  className="btnIMG rounded-circle p-2"src="" alt=""/></a>
-                                        <a href=""><FontAwesomeIcon className='icon-large' icon={faGithub} /></a>
+                                    <a href="https://github.com/Clauvet1"><FontAwesomeIcon className='icon-large' icon={faGithub} /></a> 
+                                    <a href=""><FontAwesomeIcon className='icon-large' icon={faInstagram} /></a>
+                                        <a href=""><FontAwesomeIcon className='icon-large' icon={faFacebook} /></a>
                                         <a href=""><FontAwesomeIcon className='icon-large' icon={faWhatsapp} /></a>
-                                        <a href=""><FontAwesomeIcon className='icon-large' icon={faXTwitter} /></a>
-                                        
+                                        <a href=""><FontAwesomeIcon className='icon-large' icon={faXTwitter} /></a>    
                                 </p>
                             </div>
                         </div>
