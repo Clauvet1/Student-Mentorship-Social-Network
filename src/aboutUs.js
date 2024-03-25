@@ -2,10 +2,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faWhatsapp, faGithub, faXTwitter, faInstagram, faFacebook} from "@fortawesome/free-brands-svg-icons";
 import user1 from './assets/images/pic.jpg'
 import people from './assets/images/people.png'
+import aboutVideo from './assets/videos/Activities & The Activity Lifecycle - Android Basics 2023.mp4'
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 const AboutUs = () => {
     return ( 
         <div className="aboutUs">
-          <div className="content1">
+          <div className="aboutUscontent1">
             <div className="row">
                 <div className="col-lg-6">
                     <h1 className="text-black">SERVICE PROVIDER</h1>
@@ -19,18 +21,18 @@ const AboutUs = () => {
                 </div>
                 <div className="col-lg-6">
                     <video className="shadow-lg" width="480px" height="360px" controls>
-                        <source src="videos/Activities & The Activity Lifecycle - Android Basics 2023.mp4" type="video/mp4"/>
+                        <source src={aboutVideo} type="video/mp4"/>
                     </video>
-                    <a href="http://">
+                    <Link href="http://">
                         <h3 className="apply">Apply as a Mentee</h3>
-                    </a>
+                    </Link>
                    
 
                 
                 </div>
             </div>
           </div>
-          <div className="content2">
+          <div className="aboutUscontent2">
             <div className="bg_red">
                 <div className="row">
                     <div className="col-lg-6">
@@ -102,7 +104,7 @@ const AboutUs = () => {
                     <p>Welcoming you ........</p>
                   </div>
                   <div>
-                  <a href=""><FontAwesomeIcon className='icon-large' icon={faXTwitter} /></a>
+                  <Link to=""><FontAwesomeIcon className='icon-large' icon={faXTwitter} /></Link>
                   </div>
                 </div>
                 <div className="col-lg-5 shadow mx-1 pt-4" id="p_i">
@@ -110,7 +112,7 @@ const AboutUs = () => {
                     <p>Welcoming you ........</p>
                   </div>
                   <div>
-                  <a href=""><FontAwesomeIcon className='icon-large' icon={faWhatsapp} /></a>
+                  <Link to=""><FontAwesomeIcon className='icon-large' icon={faWhatsapp} /></Link>
                   </div>
                 </div>
               </div>
@@ -120,7 +122,7 @@ const AboutUs = () => {
                     <p>Welcoming you ........</p>
                   </div>
                   <div>
-                  <a href=""><FontAwesomeIcon className='icon-large' icon={faFacebook} /></a>
+                  <Link to=""><FontAwesomeIcon className='icon-large' icon={faFacebook} /></Link>
                   </div>
                 </div>
                 <div className="col-lg-5 shadow mx-1 pt-4" id="p_i">
@@ -128,7 +130,7 @@ const AboutUs = () => {
                     <p>Welcoming you ........</p>
                   </div>
                   <div>
-                  <a href=""><FontAwesomeIcon className='icon-large' icon={faInstagram} /></a>
+                  <Link to=""><FontAwesomeIcon className='icon-large' icon={faInstagram} /></Link>
                   </div>
                 </div>
               </div>
@@ -138,7 +140,7 @@ const AboutUs = () => {
                     <p>Welcoming you ........</p>
                   </div>
                   <div>
-                  <a href="https://github.com/Clauvet1"><FontAwesomeIcon className='icon-large' icon={faGithub} /></a> 
+                  <Link href="https://github.com/Clauvet1"><FontAwesomeIcon className='icon-large' icon={faGithub} /></Link> 
                   </div>
                 </div>
                 <div className="col-lg-5 shadow mx-1 pt-4" id="p_i">
@@ -146,7 +148,7 @@ const AboutUs = () => {
                     <p>Welcoming you ........</p>
                   </div>
                   <div>
-                  <a href=""><FontAwesomeIcon className='icon-large' icon={faXTwitter} /></a>
+                  <Link to=""><FontAwesomeIcon className='icon-large' icon={faXTwitter} /></Link>
                   </div>
                 </div>
               </div>
@@ -156,7 +158,7 @@ const AboutUs = () => {
                     <p>Enjoy Quality products ........</p>
                   </div>
                   <div>
-                  <a href=""><FontAwesomeIcon className='icon-large' icon={faWhatsapp} /></a>
+                  <Link to=""><FontAwesomeIcon className='icon-large' icon={faWhatsapp} /></Link>
                   </div>
                 </div>
                 <div className="col-lg-5 shadow mx-1 pt-4" id="p_i">
@@ -164,7 +166,7 @@ const AboutUs = () => {
                     <p>Enjoy Quality products ........</p>
                   </div>
                   <div>
-                  <a href=""><FontAwesomeIcon className='icon-large' icon={faFacebook} /></a>
+                  <Link to=""><FontAwesomeIcon className='icon-large' icon={faFacebook} /></Link>
                   </div>
                 </div>
               </div>
@@ -174,7 +176,7 @@ const AboutUs = () => {
                     <p>Enjoy Quality products ........</p>
                   </div>
                   <div>
-                  <a href=""><FontAwesomeIcon className='icon-large' icon={faInstagram} /></a>
+                  <Link to=""><FontAwesomeIcon className='icon-large' icon={faInstagram} /></Link>
                   </div>
                 </div>
                 <div className="col-lg-5 shadow mx-1 pt-4" id="p_i">
@@ -182,7 +184,7 @@ const AboutUs = () => {
                     <p>Enjoy Quality products ........</p>
                   </div>
                   <div>
-                  <a href=""><FontAwesomeIcon className='icon-large' icon={faXTwitter} /></a> 
+                  <Link to=""><FontAwesomeIcon className='icon-large' icon={faXTwitter} /></Link> 
                   </div>
                 </div>
               </div>

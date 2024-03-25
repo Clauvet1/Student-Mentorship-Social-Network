@@ -2,28 +2,30 @@ import user1 from './assets/images/pic.jpg'
 import SMM from './assets/images/peaple-connect.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLanguage, faMapLocation, faCalendarWeek, faCircleNodes } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom/cjs/react-router-dom.min'
 const Home = () => {
     return ( 
         <div className="main">
             <div className="content1">
                 <div className="row">
-                    <div className="col-lg-6 mb-5 col-md-6 col-sm-12">
+                    <div className="col-lg-6 mb-5 col-md-12 col-sm-12">
                         <div className="orangeBox">
                         <h1 className='mb-5 fw-bold'>Get advice from Mentors</h1>
                         <p className='mb-5'>Talk with other successful students from your Institution, and become moltivated.</p>
-                        <button className='btn bg-black rounded-5 text-white'>Find a mentor</button>
+                     <Link to="/mentors"><button className='btn bg-black rounded-5 text-white'>Find a mentor</button></Link> 
                         </div>
                     </div>
-                    <div className="col-lg-6 col-md-6 col-sm-12">
+                    <div className="col-lg-6 col-md-12 col-sm-12">
                         <div className="box">
                             <div className="IMG">
                                 <img className='IMG1 w-100 h-100' src={user1} alt="" />
                             </div>
-                            <div className="boxContent w-75 m-auto ">
-                                <h1>Clauvet Yome</h1>
-                                <p className='ps-4'>Director of Scholar Institute</p>
+                            <div className="boxContent w-75">
+                            <center><h2 className='fs-1 fw-bold'>Clauvet Yome</h2>
+                                <p className=''>Director of Scholar Institute</p>
                                 <hr />
-                                <h3 className='ps-4'>Scholar Institute</h3>
+                                <h3 className='pb-5'>Scholar Institute</h3>
+                                </center>
                             </div>
                             
                         </div>

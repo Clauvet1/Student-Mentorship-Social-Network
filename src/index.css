@@ -4,6 +4,10 @@
   --secondaryBb-color: #45261E;
   --tertiaryBg-color: #E27E1D;
 }
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -17,9 +21,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+h1, h2, h3, h4, h5{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 .bar{
   border-radius: 4px black solid;
-  width: 95%;
+  width: 96%;
   margin: 2em auto;
 }
 #search{
@@ -46,8 +53,6 @@ li{
 /* For Home */
 
 .content1{
-  /* width: 98%;
-  box-shadow: 90px 40px 5em rgba(0, 0, 0, 0.37); */
   margin: 0 0 0 auto;
   padding: 2em;
   border-radius: 1em 0 0 1em;
@@ -59,22 +64,23 @@ p{
 }
 .IMG{
   width: 50%;
-  height: 60%;
+  height: 25vh;
   border-radius: 60%;
   overflow: hidden;
   position: absolute;
   top: -5em;
   left: 25%;
   box-shadow: 1px 4px 10px black;
-  padding: 1px;
 }
 .box{
   box-shadow: 4em -8em 30em var(--background-color);
   width: 60%;
   margin: 7em auto;
   position: relative;
-  padding: 8em 2em 2em 2em;
   border-radius: 25%;
+}
+.boxContent{
+  margin-top: 5.5em;
 }
 .orangeBox{
   box-shadow: 2px 4px 4px var(--tertiaryBg-color);
@@ -141,7 +147,7 @@ p{
   font-size:5em;
   font-family:Georgia, 'Times New Roman', Times, serif;
 }
-.content1{
+.aboutUscontent1{
   width: 75%;
   margin: 2em auto;
 }
@@ -149,7 +155,7 @@ p{
   text-decoration: underline red;
   margin-top: 2em;
 }
-.content2{
+.aboutUscontent2{
   position: relative;
   border: 1px rgb(255, 255, 255) solid;
 }
@@ -201,4 +207,282 @@ p{
 .rec{
   width: 88%;
   margin: 2em auto 0 13em;
+}
+
+/* For Mentors */
+
+.mentorIMG{
+  width: 100%;
+  box-shadow: 2px 4px 4px var(--primary-color);
+  border-radius: 2em;
+  overflow: hidden;
+}
+.filter{
+  display: flex;
+}
+#mentorDesc{
+  box-shadow: 2px 2px 4px var(--primary-color);
+  overflow: hidden;
+  border-radius: 2em;
+  padding-left: -2em;
+}
+#shadow{
+  padding: 0 .5em;
+  box-shadow: 0px 2px 4px var(--primary-color);
+  border-radius: 2em;
+  overflow: hidden;
+}
+
+/* For aboutMentor */
+
+.amIMG{
+  width: 100%;
+  height: 14vh;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 2px 2px 4px var(--primary-color);
+}
+.content5{
+  width: 65%;
+}
+h6 span{
+  color: var(--background-color);
+}
+.icon-small{
+  font-size: 1.1rem;
+  color: var(--background-color);
+  padding-right: 5%;
+  width: 1em;
+}
+.line1{
+  display: flex;
+  font-size: small;
+}
+.skillsBox{
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.055);
+  border-radius: 20px;
+}
+.skillsBox p{
+  color: black;
+}
+.messageMentor{
+  margin-top: 2em;
+  background-color: rgba(0, 0, 0, 0.055);
+  padding: 1em;
+  border-radius: 1em;
+}
+#messagebtn{
+  background-color: var(--background-color);
+}
+
+/* For mentee Profile */
+
+.mentee-profile-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.profile-details h1 {
+  margin-bottom: 10px;
+}
+
+.profile-details h2 {
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-top: 5px;
+}
+
+p {
+  margin-top: 5px;
+}
+
+/* For Login */
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.user-type {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+
+button.active {
+  background-color: var(--background-color);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  margin: 2em;
+  background-color: #118578;
+  color: #fff;
+  cursor: pointer;
+}
+.loginLinks{
+  color: #118578;
+  font-weight: bold;
+}
+
+/* For the FAQ */
+
+.faq-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.faq-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.faq-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.faq-question {
+  font-weight: bold;
+}
+
+.faq-answer {
+  margin-top: 10px;
+}
+
+/* For resources */
+
+.resources-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.resource-card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.resource-card h2 {
+  margin-bottom: 10px;
+}
+
+.resource-card p {
+  margin-bottom: 10px;
+}
+
+.resource-card a {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* For schedule */
+
+.meeting-scheduler-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.meeting-form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+/* For feedback */
+
+.feedback-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-top: 5px;
 }

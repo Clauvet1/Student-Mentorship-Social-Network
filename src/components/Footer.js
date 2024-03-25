@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faWhatsapp, faGithub, faXTwitter, faInstagram, faFacebook} from "@fortawesome/free-brands-svg-icons";
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 const Footer = () => {
     return ( 
         <div className="footer">
@@ -15,12 +16,12 @@ const Footer = () => {
                             <div className="single-box">
                                 <h2 className="text-white fs-3 mb-3">Countries where Our Services are available</h2>
                             <ul >
-                                <li><a href="#" className="text-decoration-none text-white">Cameroon</a></li>
-                                <li><a href="#" className="text-decoration-none text-white">Nigeria</a></li>
-                                <li><a href="#" className="text-decoration-none text-white">USA</a></li>
-                                <li><a href="#" className="text-decoration-none text-white">England</a></li>
-                                <li><a href="#" className="text-decoration-none text-white">Ghana</a></li>
-                                <li><a href="#" className="text-decoration-none text-white">Mexico...</a></li>
+                                <li><Link to="" className="text-decoration-none text-white">Cameroon</Link></li>
+                                <li><Link to="" className="text-decoration-none text-white">Nigeria</Link></li>
+                                <li><Link to="" className="text-decoration-none text-white">USA</Link></li>
+                                <li><Link to="" className="text-decoration-none text-white">England</Link></li>
+                                <li><Link to="" className="text-decoration-none text-white">Ghana</Link></li>
+                                <li><Link to="" className="text-decoration-none text-white">Mexico...</Link></li>
                             </ul>
                             </div>                    
                         </div>
@@ -30,11 +31,11 @@ const Footer = () => {
                                 <p className="text-info fs-5">You can email us and</p>
                                 <h2 className="text-info fs-5 mb-5">Follow us on</h2>
                                 <p className="socials">
-                                    <a href="https://github.com/Clauvet1"><FontAwesomeIcon className='icon-large' icon={faGithub} /></a> 
-                                    <a href=""><FontAwesomeIcon className='icon-large' icon={faInstagram} /></a>
-                                        <a href=""><FontAwesomeIcon className='icon-large' icon={faFacebook} /></a>
-                                        <a href=""><FontAwesomeIcon className='icon-large' icon={faWhatsapp} /></a>
-                                        <a href=""><FontAwesomeIcon className='icon-large' icon={faXTwitter} /></a>    
+                                    <Link to="https://github.com/Clauvet1"><FontAwesomeIcon className='icon-large' icon={faGithub} /></Link> 
+                                    <Link to=""><FontAwesomeIcon className='icon-large' icon={faInstagram} /></Link>
+                                        <Link to=""><FontAwesomeIcon className='icon-large' icon={faFacebook} /></Link>
+                                        <Link to=""><FontAwesomeIcon className='icon-large' icon={faWhatsapp} /></Link>
+                                        <Link to=""><FontAwesomeIcon className='icon-large' icon={faXTwitter} /></Link>    
                                 </p>
                             </div>
                         </div>
